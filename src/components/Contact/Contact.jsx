@@ -17,15 +17,12 @@ const Contact = () => {
             <p className="contact-wrapper__text">
               {cta || 'Would you like to work with me? Awesome!'}
             </p>
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              className="cta-btn cta-btn--resume"
-              href={email ? `mailto:${email}` : 'https://github.com/cobidev/react-simplefolio'}
-            >
-              {btn || "Let's Talk"}
-            </a>
           </div>
+            <form action="https://formspree.io/f/maylerka" method="POST">
+                <input placeholder="Your Email" type="text" name="_replyto"/>
+                <textarea placeholder="message" name="message"></textarea>
+              <button type="submit">{btn || "Let's Talk"}</button>
+            </form>
         </Fade>
       </Container>
     </section>

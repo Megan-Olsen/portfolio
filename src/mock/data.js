@@ -20,7 +20,7 @@ export const aboutData = {
   img: 'profile1.jpg',
   paragraphOne: 'If I am not at the computer coding away, you could possibly find me at the game store, or the library, the bookstore, playing games, reading, sewing, cooking, or hiking. There is more, but in short, I like learning new things and keeping my life full.',
   paragraphTwo: "Growing up helping out on the family sheep ranch, I learned how to put in a full day's work and still find time doing the things I love. Most of my evenings are filled with reading, strategic board games, or cooking and baking for fun.",
-  paragraphThree: 'Coding has given me a chance to do something I love for a living. Strategy and puzzles have always been a big part of my life, and taking that into my work is a fun experience. Creating things from scratch, fixing bugs, and learning new things is where my heart is. I am excited that coding fulfills my need for learning and my hope for a brighter future.',
+  paragraphThree: 'Coding has given me a chance to do something I love for a living. Strategy and puzzles have always been a big part of my life, and taking that into my work is a fun experience. Creating things from scratch, fixing bugs, and learning new things is where my heart is. I am excited that coding fulfills my need for learning and my hope for a brighter future. My Technologies: JavaScript | HTML | CSS | SASS | Express | Node.js | React | Redux',
   resume: 'https://docs.google.com/document/d/1N10gBw2VPyrsi_OiE_raDieSDVyV0ourLVXtRoWnvrs/edit?usp=sharing', // if no resume, the button will not show up
 };
 

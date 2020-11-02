@@ -35,6 +35,15 @@ export const projectsData = [
     url: 'https://gloomhavencodex.com',
     repo: 'https://github.com/Megan-Olsen/personal-project', // if no repo, the button will not show up
   },
+  {
+    id: nanoid(),
+    img: 'getaway.jpg',
+    title: 'Get Away',
+    info: 'Group Project while in Devmountain. Worked with 3 other developers to create a great project',
+    info2: 'If you would like to reach out to any of my team from this project, their information is on the About Us page. ',
+    url: 'https://getaway.dev',
+    repo: 'https://github.com/GetAway-DM/GetAway', // if no repo, the button will not show up
+  },
 ];
 
 // CONTACT DATA

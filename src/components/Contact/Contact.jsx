@@ -3,6 +3,8 @@ import Fade from 'react-reveal/Fade';
 import { Container } from 'react-bootstrap';
 import PortfolioContext from '../../context/context';
 import Title from '../Title/Title';
+import TextField from '@material-ui/core/TextField';
+import Button from '@material-ui/core/Button';
 
 const Contact = () => {
   const { contact } = useContext(PortfolioContext);
@@ -19,9 +21,9 @@ const Contact = () => {
             </p>
           </div>
             <form action="https://formspree.io/f/maylerka" method="POST">
-                <input placeholder="Your Email" type="text" name="_replyto"/>
-                <textarea placeholder="message" name="message"></textarea>
-              <button type="submit">{btn || "Let's Talk"}</button>
+              <TextField id="email" variant="outlined" placeholder="Your Email" type="text" name="_replyto"/>
+              <TextField id="message" placeholder="message" name="message" variant="outlined"></TextField>
+              <Button variant="outlined" type="submit">{btn || "Let's Talk"}</Button>
             </form>
         </Fade>
       </Container>
